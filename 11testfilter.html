@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11testfilter함수 </title>
+<style> *{font-size: 20pt;}</style>
+
+<script>
+  document.write('filter함수 예제<p>');
+  var data = ['javascript', 20,30, 'jQuery'];
+  var num= data.filter(function(value,index,array){
+    //document.write(index, '번째', value, '데이터', array, '<br>');
+    return typeof value=='number';
+  });
+
+  document.write(num);
+</script>
+
+</head>
+<body>
+    
+    <h2>11testfilter 392p</h2>
+</body>
+</html>
+

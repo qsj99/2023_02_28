@@ -1,0 +1,42 @@
+2/28(화)
+483p
+ $('a').attr( );
+ 콜백함수 callback함수 
+  window.onload =function{버튼클릭이벤트};
+  버튼.addEventListner('이벤트', 함수이름) 
+  버튼.addEventListner('click', 함수이름)
+
+html attribute 제이쿼리 attr( )
+js   property  제이쿼리 prop( ) 
+
+484p
+자바스크립트 처리 = 함수 = 기능 = function()
+자바에서    메소드 method 
+파이썬에서  기능 define def시작 
+
+502p
+submit( ) 함수는 button일 때 action 
+
+521p
+시각적인 효과 show/hide 
+
+이벤트처리
+1. <button id='btn' onclick = '함수이름()'> 버튼 </button>
+2. $('#btn').click(function(){코드기술});
+3. $('#btn').on(function(){코드기술});
+4. 
+window.load = function(){
+ document.getElementById('btn').onclick=함수이름만 , mycal;
+}
+
+5. btnDom.addEventListner('click', hical) ; 
+
+
+첫번째 사칙연산처리 결과출력 
+두번째 웹에서 숫자 입력하면 문자로 인식 
+     형변환함수 이용 
+세번째 웹에서 숫자입력하면 문자이지만 
+     숫자처럼 오른쪽 정렬 
+네번째 입력란 공백일 때 alert(''); 
+     <span> 이용하거나...
+다섯번째 자바스크립트 함수이름명명 본인맘대로

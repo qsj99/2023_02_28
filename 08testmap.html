@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+<style> *{font-size: 20pt;}</style>
+
+<script>
+   var city = [ '서울', '대구', '제주', '대전', '진주' ];
+
+document.write('<p>');
+  for(var j of city){document.write(j, ' ');}
+
+document.write('<p>');
+city.forEach(function(value, index, city){ 
+  document.write(index , '번째 ' , value, ' ', city, '<br>');
+});
+
+  document.write('<hr>392페이지 map(1v,2i,3배열)<br>')
+  var base = [ 10,20,30];
+  base.map(function(value,index,array){ 
+    document.write(index, '번째', value, '<br>');
+  });
+
+</script>
+</head>
+<body>
+    
+    <h2>08testmap함수 392p</h2>
+</body>
+</html>
+
